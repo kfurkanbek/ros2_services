@@ -1,0 +1,14 @@
+##### returns the maximum element of the matrix
+#
+### input 1 : matrix deconstructed as one dimensional array
+#
+# [[1, 2],
+#  [3, 4],
+#  [5, 6]]
+#
+# [1, 2, 3, 4, 5, 6]
+#
+#####
+float64[] matrix
+---
+float64 result

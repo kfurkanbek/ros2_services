@@ -1,0 +1,17 @@
+##### returns the multiplication of a matrix with a number, deconstructed as one dimensional array
+#
+### input 1 : matrix deconstructed as one dimensional array
+#
+# [[1, 2],
+#  [3, 4],
+#  [5, 6]]
+#
+# [1, 2, 3, 4, 5, 6]
+#
+### input 2 : number
+#
+#####
+float64[] matrix
+float64 number
+---
+float64[] result

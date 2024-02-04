@@ -1,0 +1,51 @@
+##### returns the matrix exponential discretization of the system and input matrices, deconstructed as one dimensional array
+#
+### input 1 : system matrix deconstructed as one dimensional array
+#
+# [[1, 2],
+#  [3, 4],
+#  [5, 6]]
+#
+# [1, 2, 3, 4, 5, 6]
+#
+### input 2 : height or row count of system matrix
+#
+# 1) [[*],
+# 2)  [*],
+# 3)  [*]]
+#
+# height = 3 rows
+#
+### input 3 : width or column count of system matrix
+#
+#   1) 2)
+#  [*, *]
+#
+# width = 2 columns
+#
+### input 4 : input matrix deconstructed as one dimensional array
+#
+### input 5 : height or row count of input matrix
+#
+### input 6 : width or column count of input matrix
+#
+### input 7 : time step of the discretization
+#
+### input 8 : relative error limit in taylor series expansion
+#
+### output 1 : discretized system matrix deconstructed as one dimensional array
+#
+### output 2 : discretized input matrix deconstructed as one dimensional array
+#
+#####
+float64[] system_matrix
+int64 n1
+int64 m1
+float64[] input_matrix
+int64 n2
+int64 m2
+float64 dt
+float64 accuracy
+---
+float64[] result_system
+float64[] result_input
