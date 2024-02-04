@@ -1,0 +1,16 @@
+##### returns an identity matrix, deconstructed as one dimensional array
+#
+### input 1 : height / column or row / column count
+#
+### output 1 : matrix deconstructed as one dimensional array
+#
+# [[1, 2],
+#  [3, 4],
+#  [5, 6]]
+#
+# [1, 2, 3, 4, 5, 6]
+#
+#####
+int64 n
+---
+float64[] result

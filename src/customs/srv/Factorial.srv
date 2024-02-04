@@ -1,0 +1,10 @@
+##### returns factorial of a number
+#
+### input 1: the number
+#
+### output 1 : the factorial of the number
+#
+#####
+int64 number
+---
+int64 result
