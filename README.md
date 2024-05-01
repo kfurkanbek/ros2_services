@@ -2,11 +2,16 @@
 Open source services library for ROS2
 
 ### list of services
+signal service
+
 matrix service
 
 state space service
 
 math service
+
+### signal service
+signal_service
 
 ### matrix service
 print_matrix
